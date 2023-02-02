@@ -31,7 +31,7 @@
  this._props = {};
  }
  getFileData() {
-  return ["Hello", "world"];
+  return ["One", "Two", "Three"];
  }
  onCustomWidgetBeforeUpdate(changedProperties) {
  console.log(`${this._props["widgetName"]}`);
