@@ -35,5 +35,5 @@
  }
  }
  }
- customElements.define("com-sample-box", Box);
+ customElements.define("goverp-sample-box", Box);
 })();
