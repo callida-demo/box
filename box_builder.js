@@ -7,8 +7,7 @@
  <table>
  <tr>
  <td>Opacity</td>
- <td><input id="builder_opacity" type="text" size="5" 
-maxlength="5"></td>
+ <td><input id="builder_opacity" type="text" size="5" maxlength="5"></td>
  </tr>
  </table>
  <input type="submit" style="display:none;">
@@ -47,5 +46,5 @@ this._submit.bind(this));
  return this._shadowRoot.getElementById("builder_opacity").value;
  }
  }
- customElements.define("com-sample-box-builder", BoxBuilderPanel);
+ customElements.define("goverp-sample-box-builder", BoxBuilderPanel);
 })();
