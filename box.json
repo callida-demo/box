@@ -1,32 +1,32 @@
 {
- "id": "com.sample.box",
+ "id": "goverp.sample.box",
  "version": "1.0.0",
  "name": "Box",
  "description": "A coloured box",
  "newInstancePrefix": "Box",
- "icon": "https://github.com/callida-demo/box/Excel-icon.png",  
+ "icon": "https://callida-demo.github.io/box/Excel-icon.png",  
  "vendor": "GOVERP",
  "eula": "",
  "license": "",
  "webcomponents": [
  {
  "kind": "main",
- "tag": "com-sample-box",
- "url": "https://github.com/callida-demo/box/box.js",
+ "tag": "goverp-sample-box",
+ "url": "https://callida-demo.github.io/box/box.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "styling",
- "tag": "com-sample-box-styling",
- "url": "https://github.com/callida-demo/box/box_styling.js",
+ "tag": "goverp-sample-box-styling",
+ "url": "https://callida-demo.github.io/box/box_styling.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "builder",
- "tag": "com-sap-sample-coloredbox-builder",
- "url": "https://github.com/callida-demo/box/box_builder.js",
+ "tag": "goverp-sap-sample-coloredbox-builder",
+ "url": "https://callida-demo.github.io/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
  }
