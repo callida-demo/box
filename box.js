@@ -22,6 +22,9 @@
  });
  this._props = {};
  }
+ getFileData() {
+  return ["Hello", "world"];
+ }
  onCustomWidgetBeforeUpdate(changedProperties) {
  console.log(`${this._props["widgetName"]}`);
   console.log('onCustomWidgetBeforeUpdate');
@@ -30,10 +33,10 @@
  onCustomWidgetAfterUpdate(changedProperties) {
  if ("color" in changedProperties) {
  this.style["background-color"] = changedProperties["color"];
- }
+  }
  if ("opacity" in changedProperties) {
  this.style["opacity"] = changedProperties["opacity"];
- }
+  }
  }
  }
  customElements.define("goverp-sample-box", Box);
