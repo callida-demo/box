@@ -49,7 +49,10 @@
  "height": {
  "type": "integer",
  "default": 100
- }
+ },
+  "fileData": {
+   "type" = "string[]"
+  }
  },
  "methods": {
  "setColor": {
