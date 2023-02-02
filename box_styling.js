@@ -39,4 +39,4 @@ this._shadowRoot.getElementById("form").addEventListener("submit", this._submit.
  return this._shadowRoot.getElementById("styling_color").value;
  }
  }
-customElements.define("com-sample-box-styling", BoxStylingPanel);
+customElements.define("goverp-sample-box-styling", BoxStylingPanel);
