@@ -25,7 +25,7 @@
  },
  {
  "kind": "builder",
- "tag": "goverp-sap-sample-coloredbox-builder",
+ "tag": "goverp-sap-sample-box-builder",
  "url": "https://callida-demo.github.io/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
