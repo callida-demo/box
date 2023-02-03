@@ -16,12 +16,13 @@
 <body>
 <div class="container">
 <div class="row">
- <p>Excel file upload:</p>
 
- <form action="/action_page.php">
-  <input type="file" id="excelFile" name="filename">
-  <input type="submit">
-</form>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>  
+
 </div>
 </div>
 </body>
