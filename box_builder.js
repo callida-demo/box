@@ -46,5 +46,5 @@ this._submit.bind(this));
  return this._shadowRoot.getElementById("builder_opacity").value;
  }
  }
- customElements.define("goverp-sample-box-builder", BoxBuilderPanel);
+ customElements.define("goverp-sample-box-builder", BoxBuilderPanel); 
 })();
