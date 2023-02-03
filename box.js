@@ -4,19 +4,26 @@
  <style>
  :host {
  border-radius: 5px;
- border-width: 14px;
+ border-width: 2px;
  border-color: black;
  border-style: solid;
  display: block;
  }
+ body {
+   background: #fff;
+   }
  </style> 
 <body>
- <p>Click on the "Choose File" button to upload a file:</p>
+<div class="container">
+<div class="row">
+ <p>Excel file upload:</p>
 
  <form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
+  <input type="file" id="excelFile" name="filename">
   <input type="submit">
 </form>
+</div>
+</div>
 </body>
  `;
  class Box extends HTMLElement {
@@ -40,7 +47,8 @@
  }
  onCustomWidgetAfterUpdate(changedProperties) {
  if ("color" in changedProperties) {
- this.style["background-color"] = changedProperties["color"];
+  console.log(changedProperties["color"]);
+// this.style["background-color"] = changedProperties["color"];
   }
  if ("opacity" in changedProperties) {
  this.style["opacity"] = changedProperties["opacity"];
